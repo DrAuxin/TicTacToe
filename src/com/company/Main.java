@@ -12,6 +12,7 @@ public class Main {
 	String board [][] = {{".", ".", "."},{ ".", ".", "."},{ ".", ".","."}};
         boardPrint bk = new boardPrint(board);
         bk.printBoard();
+        System.out.println("You will be X");
         while (!reply.equalsIgnoreCase("yes")&&!reply.equalsIgnoreCase("no")) {
             System.out.println("Will you go first?");
             reply = user.next();
